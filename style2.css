@@ -1,0 +1,201 @@
+@media (min-width:1000px) {
+    .mobile{
+        display: none;
+    }
+}
+
+
+
+.head{
+    width: 100%;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.head-title{
+    width: 20%;
+    font-size: 120%;
+    font-weight: bolder;
+    padding-top: 5%;
+}
+
+
+.head-nav{
+    width: 80%;
+    font-size: 120%;
+    padding: 3%;
+    font-weight: bold;
+    text-align: end;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.head-nav ul{
+    display: flex;
+    width: 70%;
+    padding-top: 3%;
+}
+
+.head-nav ul li{
+    display: inline;
+    width: 11.6%;
+}
+
+.head-nav ul li a{
+    text-decoration: none;
+}
+
+.head-nav a{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 15px;
+    padding: 3%;
+    font-size: 120%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 10%;
+    margin-top: 3%;
+    background-color: yellow;
+    margin-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+.next{
+    width: 100%;
+    background-image: url(images/medium-shot-friends-sitting-coffee-shop_23-2150183757.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    margin-top: 0%;
+    text-align: center;
+}
+
+.next .next1{
+    line-height: 150%;
+}
+
+.next .next1 h2{
+    font-size: 300%;
+    color: whitesmoke;
+}
+
+.next .next1 p{
+    font-size: 120%;
+    color: whitesmoke;
+}
+
+.next .next2{
+    display: flex;
+    text-align: right;
+}
+
+.next .next2 .top a{
+    color: white;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 150%;
+    margin-top: 3%;
+    background-color: yellow;
+}
+
+
+.next .next2 .bot a{
+    color: black;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+    font-size: 150%;
+    background-color: white;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+
+@media (max-width:768px) {
+    .desktop{
+        display: none;
+    }
+
+
+    .last{
+        width: 100%;
+        background-image: url(images/medium-shot-friends-sitting-coffee-shop_23-2150183757.jpg);
+        background-repeat: none;
+        background-size: cover;
+        padding-left: 1%;
+        padding-right: 1%;
+        padding-bottom: 5%;
+        padding-top: 5%;
+        margin-top: 0%;
+        text-align: center;
+      }
+      
+      .last .last1{
+        line-height: 150%;
+      }
+      
+      .last .last1 h2{
+        font-size: 300%;
+        color: whitesmoke;
+      }
+      
+      .last .last1 p{
+        font-size: 120%;
+        color: whitesmoke;
+      }
+     .last .last2{
+        display: flex;
+
+      }
+      
+      .last .last2 .top a{
+        color: white;
+        text-decoration: none;
+        border: 1px white solid;
+        border-radius: 25px;
+        padding: 3%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        font-size: 150%;
+        margin-top: 3%;
+        background-color: yellow;
+      }
+      
+      
+      .last .last2 .bot a{
+        color: black;
+        text-decoration: none;
+        border: 1px white solid;
+        border-radius: 25px;
+        padding: 3%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+        font-size: 150%;
+        background-color: white;
+        padding-left: 4%;
+        padding-right: 4%;
+        margin-right: 4%;
+        margin-left: 4%;
+      }
+      
+}

@@ -1,0 +1,197 @@
+@media (min-width:1000px) {
+    .mobile{
+        display: none;
+    }
+}
+
+
+.heading{
+    width: 90%;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.head-title{
+    width: 30%;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+
+.head-nav{
+    width: 60%;
+    font-size: 120%;
+    padding-top: 3%;
+    font-weight: bold;
+    text-align: end;
+}
+
+.head-nav ul{
+    display: flex;
+}
+
+
+.head-nav ul li{
+    display: inline;
+    width: 12%;
+}
+
+.head-nav ul li a{
+    text-decoration: none;
+}
+
+.next{
+    width: 90%;
+    background-image: url(images/premium_photo-1661281362580-95188f976fa1.avif);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 0%;
+    line-height: 300%;
+}
+
+.next .next1{
+    line-height: 150%;
+}
+
+.next .next1 h1{
+    font-size: 400%;
+    color: white;
+    font-weight: bolder;
+}
+
+.next .next p{
+    font-size: 200%;
+    color: white;
+
+}
+
+.next .next2{
+    display: flex;
+}
+
+.next .next2 .top a{
+    color: white;
+    text-decoration: none;
+    border: 1px rgb(14, 10, 10) solid;
+    border-radius: 25px;
+    padding: 3%;
+    font-size: 150%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+}
+
+.next .next2 .bot a{
+    color: black;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 3%;
+    font-size: 150%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    margin-top: 3%;
+    background-color: white;
+    padding-right: 4%;
+    margin-right: 4%;
+    margin-left: 4%;
+    padding-left: 4%;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    .desktop{
+        display: none;
+    }
+
+
+    .last{
+        width: 100%;
+        background-image: url(images/premium_photo-1661281362580-95188f976fa1.avif);
+        background-repeat: none;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        text-align: left;
+        padding-left: 5%;
+        padding-right: 1%;
+        padding-top: 20%;
+        padding-bottom: 5%;
+        margin-top: 0%;
+        line-height: 300%;
+      }
+      
+      .last .last1{
+        line-height: 150%;
+      }
+      
+      .last .last1 h1{
+        font-size: 300%;
+        color: white;
+        font-weight: bold;
+      }
+      
+      .last .last1 p{
+        font-size: 150%;
+        color: white;
+      
+      }
+      
+      .last .last2{
+        display: flex;
+      }
+    
+      
+      .last .last2 .first a{
+        color: white;
+        text-decoration: none;
+        border: 1px rgb(14, 10, 10) solid;
+        border-radius: 25px;
+        padding: 3%;
+        font-size: 150%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+      }
+      
+      .last .last2 .sec a{
+        color: black;
+        text-decoration: none;
+        border: 1px white solid;
+        border-radius: 25px;
+        padding: 3%;
+        font-size: 150%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-top: 3%;
+        background-color: white;
+        padding-right: 4%;
+        margin-right: 4%;
+        margin-left: 4%;
+        padding-left: 4%;
+      }
+
+
+
+.last{
+    padding-top: 20%;
+}
+
+
+
+
+
+    
+    }
